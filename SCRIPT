@@ -62,10 +62,10 @@ BtnText.BorderSizePixel = 0
 BtnText.Position = UDim2.new(0.498592883, 0, 0.488144726, 0)
 BtnText.Size = UDim2.new(0.891457498, -5, 0.468874484, -5)
 BtnText.Font = Enum.Font.GothamBlack
-BtnText.Text = "NOCLIP"
+BtnText.Text = "NOCLIP [E]"
 BtnText.TextColor3 = Color3.fromRGB(255, 255, 255)
 BtnText.TextScaled = true
-BtnText.TextSize = 14.000
+BtnText.TextSize = 51.000
 BtnText.TextWrapped = true
 
 UIAspectRatioConstraint.Parent = Button1
@@ -173,7 +173,7 @@ ImageButton.Image = "http://www.roblox.com/asset/?id=7529900564"
 
 -- Scripts:
 
-local function VXIXN_fake_script() -- ImageLabel.LocalScript 
+local function XYVV_fake_script() -- ImageLabel.LocalScript 
 	local script = Instance.new('LocalScript', ImageLabel)
 
 	
@@ -251,8 +251,8 @@ local function VXIXN_fake_script() -- ImageLabel.LocalScript
 	
 	
 end
-coroutine.wrap(VXIXN_fake_script)()
-local function ZIVSYV_fake_script() -- ImageLabel.LocalScript 
+coroutine.wrap(XYVV_fake_script)()
+local function IWFXZD_fake_script() -- ImageLabel.LocalScript 
 	local script = Instance.new('LocalScript', ImageLabel)
 
 	while true do
@@ -270,8 +270,8 @@ local function ZIVSYV_fake_script() -- ImageLabel.LocalScript
 		wait(.7)
 	end
 end
-coroutine.wrap(ZIVSYV_fake_script)()
-local function LZLM_fake_script() -- Button1.ANIME 
+coroutine.wrap(IWFXZD_fake_script)()
+local function ITZW_fake_script() -- Button1.ANIME 
 	local script = Instance.new('LocalScript', Button1)
 
 	local btn = script.Parent
@@ -314,8 +314,8 @@ local function LZLM_fake_script() -- Button1.ANIME
 		end
 	end)
 end
-coroutine.wrap(LZLM_fake_script)()
-local function JJSNKI_fake_script() -- Button1.METAB SCRIPT 
+coroutine.wrap(ITZW_fake_script)()
+local function EHHVGD_fake_script() -- Button1.METAB SCRIPT 
 	local script = Instance.new('LocalScript', Button1)
 
 	
@@ -346,8 +346,8 @@ local function JJSNKI_fake_script() -- Button1.METAB SCRIPT
 	
 	
 end
-coroutine.wrap(JJSNKI_fake_script)()
-local function PVIQSCY_fake_script() -- Button2.Button7Script 
+coroutine.wrap(EHHVGD_fake_script)()
+local function EAMLS_fake_script() -- Button2.Button7Script 
 	local script = Instance.new('LocalScript', Button2)
 
 	local btn = script.Parent
@@ -390,8 +390,8 @@ local function PVIQSCY_fake_script() -- Button2.Button7Script
 		end
 	end)
 end
-coroutine.wrap(PVIQSCY_fake_script)()
-local function MNLPBDD_fake_script() -- Button2.METAB SCRIPT 
+coroutine.wrap(EAMLS_fake_script)()
+local function HDIMXQ_fake_script() -- Button2.METAB SCRIPT 
 	local script = Instance.new('LocalScript', Button2)
 
 	script.Parent.MouseButton1Down:connect(function()
@@ -401,10 +401,10 @@ local function MNLPBDD_fake_script() -- Button2.METAB SCRIPT
 	
 		_G.CoinTP = true
 		while _G.CoinTP and wait() do	    	
-			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").FinishLines.Lava.CFrame
-			fireproximityprompt(game:GetService("Workspace").Hats.Space.UFO.ProximityPrompt)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").FinishLines.Ocean.CFrame
+			fireproximityprompt(game:GetService("Workspace").Hats.Space["Squid Money"].ProximityPrompt)
 			wait()
-			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(5.2042899131775, -95.24821472168, 491.52560424805)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1.76529, 4.75179, 690.371)
 	
 		end
 		end)
@@ -413,8 +413,8 @@ local function MNLPBDD_fake_script() -- Button2.METAB SCRIPT
 	
 	
 end
-coroutine.wrap(MNLPBDD_fake_script)()
-local function HBOMW_fake_script() -- Button3.ANIME 
+coroutine.wrap(HDIMXQ_fake_script)()
+local function WGUVFTO_fake_script() -- Button3.ANIME 
 	local script = Instance.new('LocalScript', Button3)
 
 	local btn = script.Parent
@@ -457,8 +457,8 @@ local function HBOMW_fake_script() -- Button3.ANIME
 		end
 	end)
 end
-coroutine.wrap(HBOMW_fake_script)()
-local function FUDIEQC_fake_script() -- Button3.METAB SCRIPT 
+coroutine.wrap(WGUVFTO_fake_script)()
+local function SQDXZF_fake_script() -- Button3.METAB SCRIPT 
 	local script = Instance.new('LocalScript', Button3)
 
 	
@@ -473,16 +473,16 @@ local function FUDIEQC_fake_script() -- Button3.METAB SCRIPT
 	
 	
 end
-coroutine.wrap(FUDIEQC_fake_script)()
-local function OUURQ_fake_script() -- CloseButton.LocalScript 
+coroutine.wrap(SQDXZF_fake_script)()
+local function TQOUTF_fake_script() -- CloseButton.LocalScript 
 	local script = Instance.new('LocalScript', CloseButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Visible = false
 	end)
 end
-coroutine.wrap(OUURQ_fake_script)()
-local function WKCHR_fake_script() -- CloseButton.ANIME 
+coroutine.wrap(TQOUTF_fake_script)()
+local function KOIESUI_fake_script() -- CloseButton.ANIME 
 	local script = Instance.new('LocalScript', CloseButton)
 
 	local btn = script.Parent
@@ -525,8 +525,8 @@ local function WKCHR_fake_script() -- CloseButton.ANIME
 		end
 	end)
 end
-coroutine.wrap(WKCHR_fake_script)()
-local function LKGOCRT_fake_script() -- ImageButton.LocalScript 
+coroutine.wrap(KOIESUI_fake_script)()
+local function FLSXU_fake_script() -- ImageButton.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -534,4 +534,4 @@ local function LKGOCRT_fake_script() -- ImageButton.LocalScript
 	end)
 	
 end
-coroutine.wrap(LKGOCRT_fake_script)()
+coroutine.wrap(FLSXU_fake_script)()
